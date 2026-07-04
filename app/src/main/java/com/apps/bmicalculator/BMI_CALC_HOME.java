@@ -56,7 +56,6 @@ public class BMI_CALC_HOME extends AppCompatActivity {
         btn_inc_w.setOnClickListener(v -> {
             float current_w = Float.parseFloat(text_weight.getText().toString());
             text_weight.setText(String.valueOf(current_w +1));
-
             });
         btn_dec_w.setOnClickListener(v -> {
             float current_w = Float.parseFloat(text_weight.getText().toString());
